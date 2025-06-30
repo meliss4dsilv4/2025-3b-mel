@@ -10,9 +10,30 @@ font-weight: 400;
     -lilas: #cdb4dbff;
     --rosinha: #ffc8ddff;
     --rosa: #ffafccff;
-    --azul: #bde0feff;
+    --azul: rgb(25, 143, 247);
     --azulzinho: #a2d2ffff;
       --preto:#000000;
     --fonte-primaria: "Savate", sans-serif;
     --fonte-segundaria: "Edu NSW ACT Hand Pre", cursive;
 } 
+body{
+    background-color: var(--azulzinho);
+    color: var(--azul);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--fonte-segundaria);
+
+}
+.caixa.principal{
+   background-color: var(--rosa);
+   width: 90%;
+   text-align: center;
+   padding: 20px;
+
+}
+.titulo{
+ font-family: var(--fonte-primaria);
+
+}
